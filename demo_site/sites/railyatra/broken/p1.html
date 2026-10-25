@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trains: Delhi to Jaipur – RailYatra</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="logo" href="index.html">RailY<span>atra</span></a><a class="icon-link" href="index.html" aria-label="Your profile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>Profile</span></a></header>
+<div class="layout">
+<aside><nav id="side-menu" aria-label="Section menu"><a href="#">Overview</a><a href="#">Popular</a><a href="#">Saved</a><a href="#">Settings</a></nav></aside>
+<main id="main">
+<h1>Trains: Delhi to Jaipur</h1>
+<p class="note">Train tickets · demo website for ACCESSPATH testing.</p>
+<h2>Details</h2>
+<p>Everything you need is on this page.</p>
+<p><a class="btn" href="p2.html">Shatabdi Express 12015</a></p>
+<button type="button" class="help" onclick="this.textContent='Our team will call you back.'">Need assistance?</button>
+</main></div>
+<footer>© RailYatra — fictional demo site (broken version)</footer>
+<script>
+// BUG (on purpose): Tab and Shift+Tab wrap inside this menu, Escape does nothing.
+(function(){var m=document.getElementById('side-menu'),it=[].slice.call(m.querySelectorAll('a'));
+m.addEventListener('keydown',function(e){if(e.key==='Tab'){e.preventDefault();var i=it.indexOf(document.activeElement);
+var n=e.shiftKey?(i-1+it.length)%it.length:(i+1)%it.length;it[n].focus();}});})();
+</script>
+</body></html>

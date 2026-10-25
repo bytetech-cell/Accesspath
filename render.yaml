@@ -1,0 +1,17 @@
+# Render Blueprint: Render reads this file and creates the web service for you.
+services:
+  - type: web
+    name: accesspath
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: TINYFISH_API_KEY
+        sync: false          # you paste the key in the Render dashboard
+      - key: ACCESS_CODE
+        sync: false          # a password judges type before running an audit
+      - key: GEMINI_API_KEY
+        sync: false          # optional, for AI explanations
+      - key: AUDIT_WORKERS
+        value: "1"

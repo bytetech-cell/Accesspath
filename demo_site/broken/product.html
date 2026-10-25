@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Wireless Headphones – ShopEasy</title><link rel="stylesheet" href="style.css"></head>
+<body><header><a class="logo" href="index.html">ShopEasy</a>
+<input class="search" type="search" placeholder="Search products...">
+<a class="cart-link" href="cart.html" id="cartLink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg></a></header>
+<div class="layout">
+<aside><nav id="side-menu">
+  <a href="index.html">Home</a><a href="index.html">Products</a><a href="#">Categories</a><a href="#">Offers</a>
+</nav></aside>
+<main id="main">
+ <img class="thumb" style="height:260px" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'/%3E">
+ <h1>Wireless Headphones</h1>
+ <p class="price">₹2,999</p>
+ <p class="note">Inclusive of all taxes. Ships in 2 days.</p>
+ <button class="btn" id="addBtn" type="button">Add to Cart</button>
+ <p id="added"  style="margin-top:12px"></p>
+</main></div>
+<script>
+function getCart(){try{return JSON.parse(localStorage.getItem('cart')||'[]')}catch(e){return []}}
+function setCart(c){localStorage.setItem('cart',JSON.stringify(c));updateCount()}
+function updateCount(){var el=document.getElementById('cartCount');if(el)el.textContent=getCart().length;
+ var l=document.getElementById('cartLink'); if(l && l.hasAttribute('aria-label')) l.setAttribute('aria-label','Cart, '+getCart().length+' items');}
+updateCount();
+</script>
+<script>
+document.getElementById('addBtn').addEventListener('click',function(){
+  var c=getCart(); c.push({name:'Wireless Headphones',price:2999}); setCart(c);
+  document.getElementById('added').innerHTML='Added to cart. <a href="cart.html">View cart</a>';
+});
+</script>
+<script>
+// BUG (on purpose): this "keyboard support" traps focus inside the side menu.
+// Tab and Shift+Tab always wrap around the 4 menu links, and Escape does nothing.
+var menu=document.getElementById('side-menu'); var items=[].slice.call(menu.querySelectorAll('a'));
+menu.addEventListener('keydown',function(e){
+  if(e.key==='Tab'){ e.preventDefault(); var i=items.indexOf(document.activeElement);
+    var n=e.shiftKey?(i-1+items.length)%items.length:(i+1)%items.length; items[n].focus(); }
+});
+</script></body></html>

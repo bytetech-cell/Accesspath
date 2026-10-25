@@ -1,0 +1,25 @@
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;color:#111827;background:#f8fafc}
+:focus-visible{outline:3px solid #1d4ed8;outline-offset:2px;border-radius:6px}
+.skip-link{position:absolute;left:-999px;top:8px;background:#111827;color:#fff;padding:8px 12px;border-radius:6px}
+.skip-link:focus{left:8px;z-index:10}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+header{display:flex;align-items:center;gap:16px;padding:12px 24px;background:#fff;border-bottom:3px solid #059669}
+.logo{font-weight:800;font-size:20px;color:#111827;text-decoration:none} .logo span{color:#111827;border-bottom:3px solid #059669}
+.icon-link{margin-left:auto;display:inline-flex;align-items:center;justify-content:center;gap:6px;color:#111827;text-decoration:none;
+  min-width:44px;min-height:44px;padding:8px 12px;border:1px solid #d1d5db;border-radius:8px}
+.icon-link svg{width:18px;height:18px}
+.layout{display:flex;gap:24px;padding:24px;max-width:1100px;margin:auto;flex-wrap:wrap}
+aside{width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+aside a{display:block;padding:10px;color:#111827;text-decoration:none;border-radius:8px}
+main{flex:1;min-width:260px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+.card a{color:#1d4ed8;font-weight:600;text-decoration:none}
+.thumb{width:100%;height:140px;border-radius:8px;background:linear-gradient(135deg,#05966933,#05966911);display:block}
+.note{color:#4b5563;font-size:13px}
+.btn{display:inline-block;background:#059669;color:#fff;border:0;padding:12px 18px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;text-decoration:none}
+.help{display:inline-block;margin-top:12px;padding:8px 12px;border:1px solid #d1d5db;border-radius:8px;cursor:pointer;background:#fff;font:inherit}
+.banner{max-width:100%;background:#05966922;border-radius:10px;padding:12px;margin:12px 0}
+form.sub{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+form.sub input{padding:10px;border:1px solid #d1d5db;border-radius:8px} form.sub button{padding:10px 16px;border-radius:8px;border:1px solid #d1d5db;background:#fff;font:inherit;cursor:pointer}
+footer{padding:24px;text-align:center;color:#6b7280}

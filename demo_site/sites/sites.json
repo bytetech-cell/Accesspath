@@ -1,0 +1,263 @@
+[
+ {
+  "slug": "streamnest",
+  "name": "StreamNest",
+  "kind": "Video streaming",
+  "task": "Find the masala dosa cooking video and start playing it",
+  "steps": "Trending now > Masala Dosa in 10 Minutes > Play video",
+  "bugs": [
+   "trap@3",
+   "no_outline",
+   "img_alt",
+   "icon_link",
+   "small_target"
+  ]
+ },
+ {
+  "slug": "mailnest",
+  "name": "MailNest",
+  "kind": "Email",
+  "task": "Open the inbox, write a new email and send it",
+  "steps": "Open inbox > Compose email > Send email",
+  "bugs": [
+   "divbtn@3",
+   "no_label",
+   "no_outline",
+   "low_contrast"
+  ]
+ },
+ {
+  "slug": "travelgo",
+  "name": "TravelGo",
+  "kind": "Flight booking",
+  "task": "Search Delhi to Mumbai flights and book the morning flight",
+  "steps": "Search flights > Delhi to Mumbai 7:00 AM flight > Continue to booking",
+  "bugs": [
+   "trap@2",
+   "no_zoom",
+   "small_target",
+   "overflow",
+   "no_lang"
+  ]
+ },
+ {
+  "slug": "fooddash",
+  "name": "FoodDash",
+  "kind": "Food delivery",
+  "task": "Order paneer tikka from a restaurant and reach checkout",
+  "steps": "Spice Route Kitchen > Add paneer tikka > Go to checkout",
+  "bugs": [
+   "divbtn@2",
+   "img_alt",
+   "clickable_div",
+   "no_outline"
+  ]
+ },
+ {
+  "slug": "banklite",
+  "name": "BankLite",
+  "kind": "Net banking",
+  "task": "Start a money transfer, review it and confirm",
+  "steps": "Transfer money > Review transfer > Confirm transfer",
+  "bugs": [
+   "no_label",
+   "low_contrast",
+   "vague_link",
+   "heading_skip"
+  ]
+ },
+ {
+  "slug": "learnhub",
+  "name": "LearnHub",
+  "kind": "Online courses",
+  "task": "Find the Python basics course and enroll for free",
+  "steps": "Browse courses > Python Basics for Beginners > Enroll for free",
+  "bugs": [
+   "trap@1",
+   "no_outline",
+   "icon_link",
+   "img_alt"
+  ]
+ },
+ {
+  "slug": "healthplus",
+  "name": "HealthPlus",
+  "kind": "Doctor appointments",
+  "task": "Find a general physician and book an appointment",
+  "steps": "Find a doctor > Dr. Kavya Mehta > Book appointment",
+  "bugs": [
+   "divbtn@3",
+   "small_target",
+   "no_zoom",
+   "low_contrast"
+  ]
+ },
+ {
+  "slug": "newsdaily",
+  "name": "NewsDaily",
+  "kind": "News",
+  "task": "Open the technology section and read the top story",
+  "steps": "Technology > Chip makers race to build cheaper AI > Read full story",
+  "bugs": [
+   "vague_link",
+   "heading_skip",
+   "img_alt",
+   "low_contrast"
+  ]
+ },
+ {
+  "slug": "railyatra",
+  "name": "RailYatra",
+  "kind": "Train tickets",
+  "task": "Search trains from Delhi to Jaipur and book a seat",
+  "steps": "Search trains > Shatabdi Express 12015 > Book seat",
+  "bugs": [
+   "trap@2",
+   "no_label",
+   "overflow",
+   "small_target",
+   "no_outline"
+  ]
+ },
+ {
+  "slug": "citycab",
+  "name": "CityCab",
+  "kind": "Ride booking",
+  "task": "Book a ride, choose a car and confirm it",
+  "steps": "Book a ride > Choose Mini car > Confirm ride",
+  "bugs": [
+   "divbtn@2",
+   "icon_link",
+   "small_target",
+   "no_zoom"
+  ]
+ },
+ {
+  "slug": "jobbridge",
+  "name": "JobBridge",
+  "kind": "Job portal",
+  "task": "Find a frontend developer job and submit an application",
+  "steps": "Search jobs > Frontend Developer at Nimbus Labs > Apply now",
+  "bugs": [
+   "no_label",
+   "heading_skip",
+   "no_outline"
+  ]
+ },
+ {
+  "slug": "homefinder",
+  "name": "HomeFinder",
+  "kind": "Rental homes",
+  "task": "Find a 2BHK flat in Pune and contact the owner",
+  "steps": "Rent a home > 2BHK flat in Baner Pune > Contact owner",
+  "bugs": [
+   "trap@3",
+   "img_alt",
+   "overflow",
+   "clickable_div"
+  ]
+ },
+ {
+  "slug": "govserve",
+  "name": "GovServe",
+  "kind": "Government services",
+  "task": "Start a ration card application and submit it",
+  "steps": "Citizen services > Apply for ration card > Submit application",
+  "bugs": [
+   "divbtn@3",
+   "no_label",
+   "no_lang",
+   "low_contrast",
+   "vague_link"
+  ]
+ },
+ {
+  "slug": "musicwave",
+  "name": "MusicWave",
+  "kind": "Music streaming",
+  "task": "Open the lo-fi study playlist and play it",
+  "steps": "Your playlists > Lo-fi Study Beats > Play playlist",
+  "bugs": [
+   "icon_link",
+   "small_target",
+   "no_outline"
+  ]
+ },
+ {
+  "slug": "fittrack",
+  "name": "FitTrack",
+  "kind": "Fitness app",
+  "task": "Pick the 30-day yoga plan and start it",
+  "steps": "Workout plans > 30-Day Yoga Journey > Start plan",
+  "bugs": [
+   "trap@1",
+   "low_contrast",
+   "no_zoom"
+  ]
+ },
+ {
+  "slug": "payquick",
+  "name": "PayQuick",
+  "kind": "Bill payments",
+  "task": "Pay the electricity bill",
+  "steps": "Pay bills > Electricity bill > Pay now",
+  "bugs": [
+   "divbtn@3",
+   "clickable_div",
+   "small_target",
+   "no_outline"
+  ]
+ },
+ {
+  "slug": "eventbox",
+  "name": "EventBox",
+  "kind": "Event tickets",
+  "task": "Find the Delhi tech meetup and get a ticket",
+  "steps": "Upcoming events > Delhi Tech Meetup > Get tickets",
+  "bugs": [
+   "img_alt",
+   "vague_link",
+   "heading_skip"
+  ]
+ },
+ {
+  "slug": "greengrocer",
+  "name": "GreenGrocer",
+  "kind": "Grocery delivery",
+  "task": "Add mangoes to the basket and go to checkout",
+  "steps": "Fresh fruits > Alphonso Mangoes 1 kg > Add to basket > Checkout now",
+  "bugs": [
+   "trap@3",
+   "img_alt",
+   "no_label",
+   "small_target",
+   "no_outline"
+  ]
+ },
+ {
+  "slug": "ticketflix",
+  "name": "TicketFlix",
+  "kind": "Movie tickets",
+  "task": "Book seats for a movie show",
+  "steps": "Now showing > Space Odyssey 2077 > Select seats > Proceed to pay",
+  "bugs": [
+   "divbtn@4",
+   "overflow",
+   "low_contrast",
+   "icon_link"
+  ]
+ },
+ {
+  "slug": "socialcircle",
+  "name": "SocialCircle",
+  "kind": "Social network",
+  "task": "Open messages and send a message to Riya",
+  "steps": "Messages > Chat with Riya > Send message",
+  "bugs": [
+   "no_label",
+   "icon_link",
+   "no_zoom",
+   "heading_skip"
+  ]
+ }
+]
